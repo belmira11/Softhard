@@ -21,14 +21,14 @@ export default function Questoes() {
   return (
      <section className="bg-gray-100 w-full py-12 px-6">
       <div className="text-center max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold">Dúvidas? Nós temos as respostas!</h2>
+        <h2 className="text-2xl text-black font-bold">Dúvidas? Nós temos as respostas!</h2>
         <p className="text-gray-500 text-sm mt-2">
           Se ainda tens questões sobre os nossos cursos, funcionamento da plataforma ou certificações, não te preocupes!
           Aqui estão as perguntas mais frequentes. E se precisares de mais ajuda, fala conosco!
         </p>
       </div>
 
-      <div className="mt-6 space-y-2 max-w-6xl mx-auto">
+      <div className="mt-6 space-y-2 max-w-6xl mx-auto text-gray-600">
         {faqs.map((faq, index) => (
            <div key={index} className="border rounded-lg overflow-hidden w-full">
             <button

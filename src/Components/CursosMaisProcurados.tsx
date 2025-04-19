@@ -27,7 +27,7 @@ const CardCurso = ({ curso }: any) => (
       <span className="text-xs font-semibold text-orange-500 uppercase">
         TREINAMENTO
       </span>
-      <h3 className="font-bold text-sm mt-2 mb-1 leading-snug">
+      <h3 className="font-bold text-gray-600 mt-2 mb-1 leading-snug">
         {curso.titulo}
       </h3>
       <p className="text-[13px] text-gray-600 mb-4 leading-snug">

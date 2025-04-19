@@ -40,14 +40,14 @@ export default function Header() {
             <Link href="#entrar" className="hover:text-orange-500">Entrar</Link>
             <Link
               href="#inscrever"
-              className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition"
+              className="bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition"
             >
               INSCREVER-SE
             </Link>
           </div>
 
           {/* Menu Mobile - Botão hamburguer */}
-          <div className="md:hidden">
+          <div className=" bg-black md:hidden">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -66,7 +66,7 @@ export default function Header() {
             <Link
               href="#inscrever"
               onClick={() => setIsOpen(false)}
-              className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold text-center hover:bg-orange-600"
+              className="mt-2 bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold text-center hover:bg-orange-600"
             >
               INSCREVER-SE
             </Link>
