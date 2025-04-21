@@ -47,7 +47,7 @@ export default function Header() {
           </div>
 
           {/* Menu Mobile - Botão hamburguer */}
-          <div className=" bg-black md:hidden">
+          <div className="  md:hidden">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
