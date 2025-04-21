@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <section className="py-10 px-4 bg-gray-100 mt-20">
+    <section className="pt-30 pb-20 px-6 bg-gray-100">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
 
         {/* Coluna Esquerda - Texto (50%) */}
