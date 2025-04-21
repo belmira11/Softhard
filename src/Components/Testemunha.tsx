@@ -29,7 +29,7 @@ export default function Testemunha() {
   ];
 
   return (
-    <section className="py-10 bg-gray-100 p-[30px]">
+    <section className="py-10 bg-gray-100 p-[30px] mt-2">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-2xl text-black md:text-3xl font-bold mb-2">O que teus colegas dizem?</h2>
         <p className="text-gray-500 mb-8 max-w-2xl mx-auto">

@@ -54,7 +54,7 @@ export default function Curso() {
                 >
                   <h3 className="font-semibold mb-2">Curso  {i + 1}</h3>
                   <p className="text-sm text-gray-600">
-                    Descrição breve do curso.
+                    Descrição breve do curso...
                   </p>
                 </div>
               ))}

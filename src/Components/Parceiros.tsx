@@ -11,7 +11,7 @@ export default function Parceiros() {
   ];
 
   return (
-    <section className="p-[30px] bg-gray-100 mb-2">
+    <section className="p-[30px] bg-gray-100 mt-2">
       <div className="max-w-6xl mx-auto text-center">
         <div className="bg-gray-100 p-8 rounded-xl">
           <h2 className="text-2xl text-black md:text-3xl font-bold mb-6">Conheça Nossos Parceiros</h2>
